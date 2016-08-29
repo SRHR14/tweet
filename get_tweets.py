@@ -14,7 +14,7 @@ access_key = "	770316660003573760-QoJ9eOymn8AA7zHbiDhajBCVIjBZpaL"
 access_secret = "	Fb8lISsbEJUM0ppqBtWFNnBb8ruAvphCaxlylCjzzTu8r"
 
 #method to get a user's last 100 tweets
-def get_tweets(username):
+def get_tweets(username):@SRHR14
 
 	#http://tweepy.readthedocs.org/en/v3.1.0/getting_started.html#api
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
